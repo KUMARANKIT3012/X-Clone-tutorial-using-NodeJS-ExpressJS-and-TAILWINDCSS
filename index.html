@@ -23,7 +23,7 @@
                     </g>
                 </svg>
             </div>
-            <div class="sidebar flex justify-end">
+            <div class="sidebar flex items-end flex-col">
                 <ul class="flex flex-col text-2xl space-y-3 px-11 font-bold">
                     <li
                         class="flex justify-start items-center gap-3 w-fit px-5 py-3 hover:bg-gray-900 hover:cursor-pointer hover:rounded-full">
@@ -75,10 +75,64 @@
                         <span class="material-symbols-outlined text-3xl">
                             pending</span>More
                     </li>
+                    <li>
+                        <div class="w-full text-center my-4">
+                    <button class="button bg-blue-600 px-20 text-2xl rounded-full py-3 text-white">Post</button>
+                </div>
+                    </li>
                 </ul>
+                
             </div>
         </div>
-        <div class="second w-full border border-x-white border-y-black">B</div>
+        <div class="second w-full border border-x-white border-y-black ">
+
+            <div class="top flex p-3 relative">
+                <div class="absolute w-16 h-1 rounded-full bg-blue-500 bottom-0 left-[19%] z-10"></div>
+                <div class="left bg-red-3001 w-1/2 flex justify-center font-bold text-lg">For You</div>
+                <div class="right bg-green-3001 w-1/2 flex justify-center">Following</div>
+                <div class="settings mx-2"><span class="material-symbols-outlined">
+                        Settings
+                    </span></div>
+            </div>
+            <div class="h-[1px] w-full bg-gray-700"></div>
+            <div class="whatishapp flex gap-4 my-3">
+                <div class="img m-2 w-16">
+                    <img src="https://pbs.twimg.com/profile_images/1879550460345901056/6gkahMaV_bigger.jpg" alt="">
+                </div>
+                <div class="w-full">
+                    <input class="w-full h-7 text-xl my-2 bg-black text-white outline-none" type="text"
+                        placeholder="What is Hapenning?!">
+
+                    <div class="text-blue-600 flex items-center gap-1 w-full my-4">
+                        <span class="material-symbols-outlined">
+                            globe_asia
+                        </span>
+                        <span class="font-bold">Everyone can Reply</span>
+                    </div>
+                    <div class="w-[90%] h-[0.2px] bg-gray-400 my-3"></div>
+                    <div class="blueicons flex gap-2 text-blue-400"><span class="material-symbols-outlined cursor-pointer">
+                                image
+                            </span>
+                            <span class="material-symbols-outlined cursor-pointer">
+                                gif
+                            </span>
+                            <span class="material-symbols-outlined cursor-pointer">
+                                ballot
+                            </span>
+                            <span class="material-symbols-outlined cursor-pointer">
+                                sentiment_satisfied
+                            </span>
+                            <span class="material-symbols-outlined cursor-pointer">
+                                calendar_month
+                            </span>
+                            <span class="material-symbols-outlined cursor-pointer">
+                                pin_drop
+                            </span>
+                        </div>
+                </div>
+            </div>
+            <hr>
+        </div>
         <div class="third w-full ">
             <div class="search m-3">
                 <input type="text" class="w-1/2 rounded-full bg-[#16181c] text-white px-4 py-2" placeholder="Search">
@@ -110,13 +164,13 @@
 
             <div class="who m-3 bg-[#16181c] w-1/2 py-5 rounded-xl space-y-3">
                 <h1 class="text-xl font-bold px-3">Who to Follow</h1>
-            
+
                 <div class="item p-3 space-y-4">
                     <div class="font-bold  cursor-pointer">AnkitKumar</div>
                     <div class="font-bold  cursor-pointer text-gray-200">Cristiano Ronaldo</div>
                     <div class="font-bold  cursor-pointer text-gray-200">Arjun Kapoor</div>
                     <div class="font-bold  cursor-pointer text-gray-200">Baba Ramdev</div>
-                    
+
                     <div class="text-blue-600 underline my-5 px-3">Show More</div>
                 </div>
             </div>

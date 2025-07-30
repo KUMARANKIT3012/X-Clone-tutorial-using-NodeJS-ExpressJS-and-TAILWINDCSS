@@ -2,10 +2,11 @@
   "name": "x-clone",
   "version": "1.0.0",
   "scripts": {
-    "dev": "vite",
-    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css --minify",
-    "preview": "vite preview"
-  },
+  "dev": "vite",
+  "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --minify && vite build",
+  "preview": "vite preview",
+  "watch:css": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",

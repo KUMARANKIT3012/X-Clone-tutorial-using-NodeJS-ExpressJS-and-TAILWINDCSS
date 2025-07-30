@@ -2,9 +2,7 @@
   "name": "x-clone",
   "version": "1.0.0",
   "scripts": {
-  "dev": "vite",
-  "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --minify && vite build",
-  "preview": "vite preview",
+  "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --minify",
   "watch:css": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
 },
   "keywords": [],

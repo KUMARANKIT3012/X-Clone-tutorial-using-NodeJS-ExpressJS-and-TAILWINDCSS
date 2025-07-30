@@ -1,13 +1,11 @@
 {
-  "name": "x-clone-tutorial-using-nodejs-expressjs-and-tailwindcss",
+  "name": "x-clone",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "preview": "vite preview",
-  "watch:css": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
-},
+    "dev": "vite",
+    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css --minify",
+    "preview": "vite preview"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
